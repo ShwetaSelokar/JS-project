@@ -1,0 +1,379 @@
+.container{
+    padding-top: 30px;
+    width: 85%;
+    height: 667px;
+    position: relative;
+    left: 125px;
+    background-color: #3D087B;
+}
+
+.clock{
+    position: absolute;
+    top: 40px;
+    left: 124px;
+    width: 204px;
+    height: 77px;
+}
+
+.rect{
+    position: absolute;
+    top: 149px;
+    left: 124px;
+    width: 470px;
+    height: 329px;  
+    background-color: #FFFFFF;
+    border: 2px solid #EDEDED;
+    border-radius: 10px;
+}
+
+.msg{
+    position: absolute;
+    top: 497px;
+    left: 124px;
+    width: 470px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #EDEDED;
+    opacity: 0.63;
+    background-color: white;
+    color: black;
+    text-align: center;
+    outline-color: black;
+}
+
+.setalarm{
+    position: absolute;
+    top: 562px;
+    left: 124px;
+    width: 235px;
+    height: 50px;
+    background-image: linear-gradient(
+        to right,
+        #6E54EC,
+        #CB52F8,
+        #FC5EFF,
+        #F1A7C5);
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    
+}
+
+.setalarm:hover{
+    box-shadow: #F1A7C5;
+    background-image: linear-gradient(
+        to left,
+        #6E54EC,
+        #CB52F8,
+        #FC5EFF,
+        #F1A7C5 
+    );
+}
+
+.setaside{
+    position: absolute;
+    top: 562px;
+    left: 364px;
+    width: 235px;
+    height: 100px;
+    border-radius: 10px;
+    background-color:  #FFFFFF;
+    opacity: 0.63;
+}
+
+.time{
+    position: absolute;
+    top: 42px;
+    left: 642px;
+    width: 536px;
+    height: 130px;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    background-color: #FFFFFF;
+    text-align: left;
+
+}
+.tim{
+    text-align: left;
+    font-size: large;
+    color: #3D087B;
+    text-transform: uppercase;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    z-index: 1;
+}
+
+.time1{
+    position: absolute;
+    top: 55px;
+    left: 705px;
+    width: 426px;
+    height: 130px;
+    border-radius: 10px;
+    opacity: 0.71;
+    background-color: #FFFFFF;
+}
+
+.time2{
+    position: absolute;
+    top: 67px;
+    left: 728px;
+    width: 379px;
+    height: 130px;
+    border-radius: 10px;
+    opacity: 0.22;
+    background-color: #FFFFFF;
+}
+
+.grab{
+    position: absolute;
+    top: 212px;
+    left: 642px;
+    width: 536px;
+    height: 118px;
+    border: 1px solid #EDEDED;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    opacity: 1;
+    text-align: center;
+    font-family: normal normal 900 30px/40px Bauhaus Hv BT;
+    letter-spacing: 0px;
+    color: #8E53F0;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: x-large;
+    
+}
+
+.image{
+    position: absolute;
+    top: 345px;
+    left: 642px;
+    width: 536px;
+    height: 291px;
+    opacity: 1;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+p{
+   text-align: center;
+   letter-spacing: 0px;
+    color: #F25CFE;
+    z-index: 1;
+    
+}
+
+.box1{
+    width: 79px;
+    height: 98px;
+    background-image: url(./timeline.svg);
+    position: absolute;
+    top: 17px;
+    left: 123px;
+    border-radius: 3px;
+    text-align: center;
+    color: #8A11BF;
+    letter-spacing: 0px;
+    opacity: 1;
+    z-index: 1;
+  
+}
+.box2{
+    width: 79px;
+    height: 98px;
+    background-image: url(./timeline.svg);
+    position: absolute;
+    top: 17px;
+    left: 225px;
+    border-radius: 3px;
+    text-align: center;
+    color: #8A11BF;
+    letter-spacing: 0px;
+    opacity: 1;
+    z-index: 1;
+}
+
+.box3{
+    width: 79px;
+    height: 98px;
+    background-image: url(./timeline.svg);
+    position: absolute;
+    top: 17px;
+    left: 325px;
+    border-radius: 3px;
+    text-align: center;
+    color: #8A11BF;
+    letter-spacing: 0px;
+    opacity: 1;
+    z-index: 1;
+}
+
+.box4{
+    width: 79px;
+    height: 98px;
+    background-image:url(./AM_svg.svg) ;
+    position: absolute;
+    top: 17px;
+    left: 425px;
+    border-radius: 3px;
+    text-align: center;
+    color: #8A11BF;
+    letter-spacing: 0px;
+    opacity: 1;
+    z-index: 1;
+    font-size: x-large;
+}
+.m1{
+    position: absolute;
+    top: 23px;
+    left: 20px;
+}
+
+.t1{
+    position: absolute;
+    top: 32px;
+    left: 73px; 
+    font-family: sans-serif;
+    
+}
+
+.s1{
+    position: absolute;
+    top: 32px;
+    left: 264px;
+    background-color: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    border: none;
+    box-shadow: 2px 2px #ededed;
+}
+option{
+    height: 20px;
+    width: 50px;
+}
+
+.m2{
+    position: absolute;
+    top: 93px;
+    left: 20px;
+
+}
+
+.t2{
+    position: absolute;
+    top: 103px;
+    left: 73px; 
+    font-family: sans-serif;
+}
+
+.s2{
+    position: absolute;
+    top: 101px;
+    left: 264px;
+    background-color: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    
+}
+
+.m3{
+    position: absolute;
+    top: 174px;
+    left: 20px;
+}
+
+.t3{
+    position: absolute;
+    top: 184px;
+    left: 73px; 
+    font-family: sans-serif;
+}
+
+.s3{
+    position: absolute;
+    top: 179px;
+    left: 264px;
+    background-color: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    
+}
+
+.m4{
+    position: absolute;
+    top: 263px;
+    left: 20px;
+}
+
+.t4{
+    position: absolute;
+    top: 268px;
+    left: 73px; 
+    font-family: sans-serif;
+}
+
+.s4{
+    position: absolute;
+    top: 265px;
+    left: 264px;
+    background-color: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    
+}
+.bbox1{
+    width: 172px;
+    height: 78px;
+    background-color: white;
+    border-radius: 8px;
+    position: absolute;
+    top: 8px;
+    left: 421px;
+    color: #858585;
+}
+
+.traingle1{
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-left: 21px solid white;
+        border-bottom: 10px solid transparent;
+        position: absolute;
+        top: 26px;
+        left: 587px;
+}
+
+.bbox2{
+    width: 206px;
+    height: 49px;
+    background-color: white;
+    border-radius: 8px;
+    position: absolute;
+    top: 631px;
+    left: 119px;
+    color: #858585;
+    padding-bottom: 5px;
+}
+.traingle2{
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 21px solid white;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 621px;
+    left: 222px;
+   
+}
