@@ -28,10 +28,13 @@
             <label for="cars">Set wake up time</label>
         </div>
         <div class="s1">
-                <select id="cars">
-                  <option value="volvo">10 AM - 11 AM</option>
-                  <option value="saab">11 AM - 12 PM</option>
-                  <option value="opel">12 PM - 1 PM</option>
+                <select class="dropdown" id="wakeUp">
+                    <option value="1" class="waketime">08 AM - 09 AM</option>
+                    <option value="2" class="waketime">09 AM - 10 AM</option>
+                    <option value="3" class="waketime">10 AM - 11 AM</option>
+                    <option value="4" class="waketime">11 AM - 12 PM</option>
+                    <option value="5" class="waketime">12 PM - 01 PM</option>
+                    <option value="6" class="waketime" hidden selected>Set Wakeup Time</option>
                 </select>
             
             </div>
@@ -43,11 +46,12 @@
                 <label for="cars">Set lunch time</label>
                 </div>
                 <div class="s2">
-                    <select id="cars">
-                      <option value="volvo">12 PM - 1 PM</option>
-                      <option value="saab">1 PM - 2 PM</option>
-                      <option value="opel">2 PM - 3 PM</option>
-                      <option value="audi">3 PM - 4 PM</option>
+                    <select class="dropdown" id="lunch">
+                        <option value="1">12 PM - 01 PM</option>
+                            <option value="2">01 PM - 02 PM</option>
+                            <option value="3">02 PM - 03 PM</option>
+                            <option value="4">03 PM - 04 PM</option>
+                            <option value="5" class="waketime" hidden selected>Set Lunch time</option>
                     </select>
                 
                 </div>
@@ -56,12 +60,15 @@
                     <img src="./nap_time.svg" alt="">
                     </div>
                     <div class="t3">
-                    <label for="cars">Set nap time      </label>
+                    <label for="dropdown">Set nap time      </label>
                     </div>
                     <div class="s3">
-                        <select id="cars">
-                          <option value="volvo">4 PM - 5 PM</option>
-                          <option value="saab">Saab</option>
+                        <select class="dropdown" id="napTime">
+                            <option value="1">04 PM - 05 PM</option>
+                            <option value="2">05 PM - 06 PM</option>
+                            <option value="3">06 PM - 07 PM</option>
+                            <option value="4">07 PM - 08 PM</option>
+                            <option value="5" class="waketime" hidden selected>Set Nap Time</option>
                         
                         </select>
                     
@@ -74,9 +81,12 @@
                         <label for="cars">Set night time</label>
                         </div>
                         <div class="s4">
-                            <select id="cars">
-                              <option value="volvo">10 AM - 11 AM</option>
-                              <option value="saab">12 AM - 1O AM</option>
+                            <select class="dropdown" id="nightTme">
+                            <option value="1">08 PM - 09 PM</option>
+                            <option value="2">09 PM - 10 PM</option>
+                            <option value="3">10 PM - 11 PM</option>
+                            <option value="4">11 PM - 12 PM</option>
+                            <option value="5" selected hidden>Set Night Time</option>
                               
                             </select>
                         
@@ -86,11 +96,12 @@
             
 
         <div class="msg">
-            <h3>GOOD MORNING!! WAKE UP !!</h3>
+            <h3 id="text1">GOOD MORNING!! WAKE UP !!</h3>
         </div>
 
-        <div class="setalarm">
-            Set Alarm
+        <div >
+            <button class="setalarm" id="alarm" onclick="dropdown()">Set Alarm</button>
+            
         </div>
             <div class="bbox2">
                 <p>Time will be updated here after clicking on "Set Alarm"</p>
@@ -99,19 +110,19 @@
 
         <div class="setaside">
             <p>
-                Wake Up Time : 10AM - 11AM
-            <br> Lunch Time : 12PM - 1PM
-            <br> Nap Time : 4PM - 5PM 
-            <br>Night Time : 8PM-9AM
+                 Wake Up Time : <span id="wp"> set time</span>
+            <br>  Lunch Time:<span id="lt"> set time</span>
+            <br>  Nap Time : <span id="nt"> set time </span>
+            <br>  Night Time : <span id="nigt"> set time  </span>
         </p>
         </div>
 
         <div class="time">
            <div class="tim"> <h2>Time :</h2></div>
-            <div class="box1"><h2 style="z-index: 1;">10 <br> hours</h2></div>
-            <div class="box2"><h2 style="z-index: 1;">00 <br> min</h2></div>
-            <div class="box3"><h2 style="z-index: 1;">01 <br> sec</h2></div>
-            <div class="box4"><h2 style="z-index: 1;"> AM</h2></div>
+            <div class="box1" ><h2 style="z-index: 1;" id="hours">00 <h2> hours </h2></h2></div>
+            <div class="box2" ><h2 style="z-index: 1;" id="minutes">00 <h2> min</h2></h2></div>
+            <div class="box3" ><h2 style="z-index: 1;" id="seconds">00 <h2> sec</h2></h2></div>
+            <div class="box4" ><h2 style="z-index: 1;" id="session"> <h2> </h2></h2></div>
         </div>
 
         <div class="time1">
@@ -122,8 +133,8 @@
 
         </div>
 
-        <div class="grab">
-            <h3>GRAB SOME HEALTHY BREAKFAST!!!</h3>
+        <div class="grab" >
+            <h3 id="text2">GRAB SOME HEALTHY BREAKFAST!!!</h3>
         </div>
 
         <div class="image">
@@ -137,4 +148,8 @@
     </div>
 
 </body>
+
+<script src="./script.js">
+
+</script>
 </html>
